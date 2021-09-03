@@ -1,0 +1,60 @@
+body{
+  background-color: #1877f2;
+  color:#333;
+}
+a, a:link{
+  color:#333;
+  text-decoration: underline;
+}
+a:hover{
+  text-decoration: none;
+}
+
+/* Login Page Starts Here */
+
+.login-box{
+  background-color: #f8f9fa;
+  margin: 50px auto 0; 
+  max-width: 450px;
+  padding:30px;
+  color:#707580;
+  font-size: 12px;
+  
+}
+
+.title{
+ font-size: 24px;
+ color:#333;
+ font-weight: bold;
+ padding:10px 0;
+ text-align: center;   
+}
+
+.sub-title{
+  font-size: 14px;
+  padding:5px 0 10px 0;
+  text-align: center; 
+}
+
+input.text{
+  border:2px solid #dee2e6;
+  background-color: #fff; 
+  font-size: 14px;
+  color:#999;
+  margin-bottom: 15px;
+}
+
+button.login{
+  background: #007bff;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding:10px 0;
+  -webkit-transition: background 0.5s; 
+  transition: background 0.5s;
+}
+button.login:hover{
+  color: #fff;
+background:#0268d4;
+}
+/* Login Page Ends Here */
